@@ -1,0 +1,46 @@
+.js-form,
+.js-toDoForm,
+.js-greetings {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.js-form input,
+.js-toDoForm input {
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.js-greetings {
+  color: black;
+}
+
+.list_body {
+  background-color: #fcfcfc;
+}
+
+.js-toDoList {
+  padding-top: 30px;
+}
+
+.js-toDoList button {
+  margin-bottom: 10px;
+}
+
+.js-toDoList span {
+  margin-left: 10px;
+}
+
+button {
+  color: red;
+}
