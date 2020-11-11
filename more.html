@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>더보기 | 카카오 클론</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0a14441910.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/clock.js"></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fas fa-satellite-dish"></i>
+        <span class="status-bar__mobile name">LG U+</span>
+        <span class="status-bar__LTE">LTE</span>
+      </div>
+      <div class="status-bar__column js-clock">
+        <span class="status-bar__clock"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-sync"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <div class="header">
+      <div class="header__column">
+        <h2 class="header__title">더보기</h2>
+      </div>
+      <div class="header__column">
+        <span class="header__icon">
+          <a href="find.html"><i class="fas fa-search"></i></a>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-qrcode"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html"><i class="fas fa-cog"></i></a>
+        </span>
+      </div>
+    </div>
+    <main class="more">
+      <header class="more__header">
+        <div class="more__friend friend friend--lg">
+          <div class="friend__column">
+            <img class="friend__avatar g-avatar" src="imgs/me.png" />
+            <div class="friend__content">
+              <sapn class="friend__name">
+                오영일
+              </sapn>
+              <span class="friend__bottom-text">
+                oyi00111@gmail.com
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <span class="friend__icon">
+              <a href="list.html"><i class="fas fa-align-justify"></i></a>
+            </span>
+          </div>
+        </div>
+      </header>
+      <ul class="more__list">
+        <li class="more__btn btn">
+          <div class="btn__more">
+            <span class="btn__icon">
+              <i class="far fa-smile"></i>
+            </span>
+            <span class="btn__title">
+              이모티콘
+            </span>
+          </div>
+        </li>
+        <li class="more__btn btn">
+          <div class="btn__more">
+            <span class="btn__icon">
+              <i class="fas fa-palette"></i>
+            </span>
+            <span class="btn__title">
+              페인팅
+            </span>
+          </div>
+        </li>
+        <li class="more__btn btn">
+          <div class="btn__more">
+            <span class="btn__icon">
+              <i class="fab fa-kickstarter"></i>
+            </span>
+            <span class="btn__title">
+              계정
+            </span>
+          </div>
+        </li>
+      </ul>
+      <section class="more__suggestion suggestion">
+        <h4>카카오 추천</h4>
+        <ul class="suggestion__list">
+          <li class="suggestion__list suggestions">
+            <div class="suggestions__content">
+              <i class="fas fa-quote-right"></i>
+              <span class="suggestions__content__title">카카오 스토리</span>
+            </div>
+          </li>
+          <li class="suggestion__list suggestions">
+            <div class="suggestions__content">
+              <i class="fas fa-paw"></i>
+              <span class="suggestions__content__title">카카오 프렌즈</span>
+            </div>
+          </li>
+          <li class="suggestion__list suggestions">
+            <div class="suggestions__content">
+              <i class="fas fa-gamepad"></i>
+              <span class="suggestions__content__title">카카오 게임</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link"
+            ><i class="far fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link"
+            ><i class="far fa-comment"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="big-screen">
+      <span class="big-screen__text">화면을 줄여주세요!!!</span>
+    </div>
+  </body>
+</html>
